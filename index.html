@@ -5,54 +5,56 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div>
-            <h1>Invoice creator</h1>
-            <h6>Thanks for choosing Powstik!</h6>
-        </div>
-        <div>
-            <button>Wash Car: $10</button>
-            <button>Mow Lawn: $20</button>
-            <button>Pull Weeds: $30</button>
-        </div>
-        <div>
-            <div>
-                <span>
-                    TASK
-                </span>
-                <span>
-                    TOTAL
-                </span>
+        <div id="main-el">
+            <div id="head-el">
+                <h1>Invoice creator</h1>
+                <h6>Thanks for choosing Powstik!</h6>
             </div>
-            <div>
-                <p>
-                    <span>
-                        Wash Car<span>Remove</span>
-                    </span>
-                    <span>
-                        $<span>10</span>
-                    </span>
-                </p>
+            <div id="bottom-el">
+                <div id="items-el">
+                    <button id="btn-1">Wash Car: $10</button>
+                    <button id="btn-2">Mow Lawn: $20</button>
+                    <button id="btn-3">Pull Weeds: $30</button>
+                </div>
+                <div id="amount-el">
+                    <div id="amount-heading">
+                        <div id="left-el">
+                            TASK
+                        </div>
+                        <div id="right-el">
+                            TOTAL
+                        </div>
+                    </div>
+                    <div id="amount-detail">
+                        <div id="left-el">
+                            Wash Car<span>Remove</span>
+                        </div>
+                        <div id="right-el">
+                            $<span>10</span>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div>
+                        <span>
+                            NOTES
+                        </span>
+                        <span>
+                            TOTAL AMOUNT
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                            We accept cash
+                        </span>
+                        <span>
+                            $<span>60</span>
+                        </span>
+                    </div>
+                </div>
+                <button id="invoice-btn">Send Invoice</button>
             </div>
         </div>
-        <hr>
-        <div>
-            <div>
-                <span>
-                    NOTES
-                </span>
-                <span>
-                    TOTAL AMOUNT
-                </span>
-            </div>
-            <div>
-                <span>
-                    We accept cash
-                </span>
-                <span>
-                    $<span>60</span>
-                </span>
-            </div>
-        </div>
-        <button>Send Invoice</button>
     </body>
 </html>

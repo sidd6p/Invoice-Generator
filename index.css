@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h6 {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+#main-el {
+    width: 550px;
+    margin: auto;
+    margin-top:30px;
+    font-family: 'Inter';
+    font-style: normal;
+}
+
+#head-el {
+    height: 150px;
+    text-align: center;
+    color: white;
+    background-color: #3A69D2;
+    padding: 20px 30px;
+}
+
+#bottom-el {
+    box-sizing: border-box;
+    padding: 0px 20px;
+    width: 550px;
+    height: 300px;
+    background-color: #1F2937;
+}
+
+#items-el {
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    background-color: #D1D4F4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#invoice-btn {
+    width: 473px;
+    height: 44px;
+    background-color: #3A69D2;
+}
+
+#amount-el {
+    color: #F5F5F5;
+}
+
+hr {
+    border: 1px solid #C3C6DB;
+}
+
+#amount-heading {
+    font-weight: 700;
+    font-size: 12px;
+    margin: 10px;
+}
+
+#amount-detail {
+    margin: 10px;
+}
+
+#left-el {
+    float: left;
+}
+
+#right-el { 
+    float: right;
+}
