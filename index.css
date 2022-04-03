@@ -37,8 +37,9 @@ p {
     box-sizing: border-box;
     padding: 0px 20px;
     width: 550px;
-    height: 300px;
+    height: auto;
     background-color: #1F2937;
+    color: #F5F5F5;
 }
 
 #items-el {
@@ -46,7 +47,7 @@ p {
     padding: 10px;
 }
 
-button {
+#btn-1, #btn-2, #btn-3 {
     margin: 10px;
     background-color: #D1D4F4;
     border: none;
@@ -55,33 +56,75 @@ button {
 }
 
 #invoice-btn {
-    width: 473px;
+    color: white;
+    margin: 30px 0px;
+    width: 510px;
     height: 44px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
     background-color: #3A69D2;
 }
 
-#amount-el {
-    color: #F5F5F5;
-}
 
 hr {
     border: 1px solid #C3C6DB;
+    margin: 30px 0px;
+}
+
+#amount-el {
+    height: auto;
 }
 
 #amount-heading {
     font-weight: 700;
     font-size: 12px;
-    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 #amount-detail {
-    margin: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
 }
 
-#left-el {
-    float: left;
+#purchse-el {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
-#right-el { 
-    float: right;
+#bottom-1-el {
+    display: flex;
+    justify-content: space-between;   
+    margin-bottom: 10px; 
+}
+
+#bottom-2-el {
+    display: flex;
+    justify-content: space-between;    
+}
+
+#dollor-el {
+    color: #918E9B;
+}
+
+#total-el {
+    font-weight: 600px;
+    font-size: 36px;
+}
+
+#remove-btn {
+    font-weight: 400;
+    font-size: 8px;
+    margin: 0px 10px;
+    background-color: #1F2937;
+    color: #D5D4D8;
+    border: none;
 }
