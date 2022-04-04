@@ -41,12 +41,19 @@ removebtn3.addEventListener("click", function () {
 
 function updateItem(item, count) {
     items[item] = Math.max(0, items[item] + count);
-    quantityEls[item].innterText = items[item];
+    quantityEls[item].innerText = `x ${items[item]}`;
     updateCost(item);
 }
 
 function checkOut() {
     alert("Thanks you for Shopping with us!, Your Total is: " + totalAmt)
+    totalAmt = 0;
+    for (let i = 0; i < 3; i++) {
+        items[i] = 0;
+        quantityEls[i].innerText = `x ${items[i]}`;
+        costEles[i].innerText = 0;
+    }
+    totalEl.innerText = 0;
 }
 
 function updateCost(item) {
