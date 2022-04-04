@@ -17,6 +17,13 @@ p {
     font-size: 20px;
 }
 
+hr {
+    border: 1px solid #C3C6DB;
+    margin: 30px 0px;
+}
+
+
+
 #main-el {
     width: 550px;
     margin: auto;
@@ -47,14 +54,6 @@ p {
     padding: 10px;
 }
 
-#btn-1, #btn-2, #btn-3 {
-    margin: 10px;
-    background-color: #D1D4F4;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
-}
-
 #invoice-btn {
     color: white;
     margin: 30px 0px;
@@ -65,12 +64,6 @@ p {
     border: none;
     border-radius: 5px;
     background-color: #3A69D2;
-}
-
-
-hr {
-    border: 1px solid #C3C6DB;
-    margin: 30px 0px;
 }
 
 #amount-el {
@@ -120,7 +113,9 @@ hr {
     font-size: 36px;
 }
 
-#remove-btn-1, #remove-btn-2, #remove-btn-3 {
+
+
+.remove-btn {
     font-weight: 400;
     font-size: 8px;
     margin: 0px 10px;
@@ -132,4 +127,12 @@ hr {
 .quantity-el {
     margin-left: 20px;
     color: #918E9B;
+}
+
+.btn-items-el{
+    margin: 10px;
+    background-color: #D1D4F4;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
 }
