@@ -21,7 +21,7 @@ p {
     width: 550px;
     margin: auto;
     margin-top:30px;
-    font-family: 'Inter';
+    font-family: Inter;
     font-style: normal;
 }
 
@@ -120,11 +120,16 @@ hr {
     font-size: 36px;
 }
 
-#remove-btn {
+#remove-btn-1, #remove-btn-2, #remove-btn-3 {
     font-weight: 400;
     font-size: 8px;
     margin: 0px 10px;
     background-color: #1F2937;
     color: #D5D4D8;
     border: none;
+}
+
+.quantity-el {
+    margin-left: 20px;
+    color: #918E9B;
 }
